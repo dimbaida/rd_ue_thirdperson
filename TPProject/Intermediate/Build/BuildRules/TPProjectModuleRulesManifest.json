@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/dim/Documents/GitHub/rd_ue_thirdperson/TPProject/Source/TPProject/TPProject.Build.cs",
+		"/Users/dim/Documents/GitHub/rd_ue_thirdperson/TPProject/Source/TPProject.Target.cs",
+		"/Users/dim/Documents/GitHub/rd_ue_thirdperson/TPProject/Source/TPProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

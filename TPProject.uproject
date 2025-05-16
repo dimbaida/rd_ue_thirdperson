@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"GameplayAbilities"
+				"GameplayAbilities",
+				"Blutility"
 			]
 		}
 	],
@@ -24,6 +25,10 @@
 		},
 		{
 			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedRenamer",
 			"Enabled": true
 		}
 	]

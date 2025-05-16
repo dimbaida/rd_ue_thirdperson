@@ -1,0 +1,12 @@
+#pragma once
+
+struct TestShader
+{  
+	float Input_A;
+	float Input_B;
+
+	float Mult( float a, float b)
+	{
+		return sin(a * b);  
+	}
+};

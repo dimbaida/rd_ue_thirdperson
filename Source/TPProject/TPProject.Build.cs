@@ -11,7 +11,8 @@ public class TPProject : ModuleRules
 		{
 			"GameplayAbilities",
 			"GameplayTags",
-			"GameplayTasks"
+			"GameplayTasks",
+			"UnrealEd"
 		});
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
@@ -19,7 +20,9 @@ public class TPProject : ModuleRules
 			"CoreUObject", 
 			"Engine", 
 			"InputCore",
-			"EnhancedInput"
+			"EnhancedInput",
+			"RenderCore",
+			"UMG"
 		});
 	}
 }

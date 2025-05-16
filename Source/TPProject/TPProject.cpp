@@ -3,5 +3,15 @@
 #include "TPProject.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, TPProject, "TPProject" );
- 
+void FShaderLabModule::StartupModule()
+{
+	FString ShaderDirectory = FPaths::Combine(FPaths::ProjectDir(), TEXT("Shaders"));
+	AddShaderSourceDirectoryMapping("/TPProject", ShaderDirectory);
+}
+
+void FShaderLabModule::ShutdownModule()
+{
+	ResetAllShaderSourceDirectoryMappings();
+}
+
+IMPLEMENT_PRIMARY_GAME_MODULE(FShaderLabModule, TPProject, "TPProject");  
